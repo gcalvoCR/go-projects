@@ -1,0 +1,10 @@
+2024-06-05 20:12:37 [32minfo[39m: [30585] Master Started 
+2024-06-05 20:12:37 [32minfo[39m: Cluster metrics server listening to 5555, metrics exposed on http://localhost:5555/metrics . Set a negative value for config.monitoring.port to enable monitoring  
+2024-06-05 20:12:37 [32minfo[39m: CORS enabled for http://localhost:3000, http://localhost:3001, http://localhost:5000 
+2024-06-05 20:12:37 [32minfo[39m: [30588] Worker started 
+2024-06-05 20:12:37 [32minfo[39m: Handlebar helpers registration started 
+2024-06-05 20:12:37 [33mwarn[39m: Code Injection is disabled. Helpers such as code, inject, pg, csv and functionalities such as external helpers, will not work. 
+2024-06-05 20:12:37 [32minfo[39m: Handlebar helpers registration completed 
+2024-06-05 20:12:37 [32minfo[39m: No middleware injection. 
+2024-06-05 20:12:37 [32minfo[39m: Worker sharing HTTP server at http://localhost:8080 ⛳ 
+2024-06-05 20:13:37 [32minfo[39m: OpenApi Swagger Petstore (v1.0.0) validation schema loaded from https://raw.githubusercontent.com/OAI/OpenAPI-Specification/main/examples/v3.0/petstore.json. 

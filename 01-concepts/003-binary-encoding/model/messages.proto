@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package model;
+
+option go_package = "../demo";
+
+enum ReqType {
+	INVALID    = 0;
+	ADD        = 1;
+	AVG        = 2;
+	RANDOM     = 3;
+	SPELLCHECK = 4;
+	SEARCH     = 5;
+}
+
+message ClientReq {
+	uint64 ID       = 1; 
+	ReqType Type    = 2;     // one of ReqX defined above
+	bytes  Data     = 3;     // request specific encoded data
+}
+

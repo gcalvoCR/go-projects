@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+option go_package = "../demo";
+
+message Search{
+    message Req {
+        string q = 1;
+        repeated string params = 2;
+        int64 id = 3;
+    }
+    
+    message Resp{
+        enum From {
+            Cache = 0;
+            Current = 1;
+        }
+        int64 id = 1;
+        string ans = 2;
+        From source = 3;
+    }
+}
